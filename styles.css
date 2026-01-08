@@ -9,6 +9,10 @@ body {
     border: 0px solid black;
 }
 
+h1 {
+    text-align: center;
+}
+
 .section {
     box-sizing: border-box;
     padding: 10px 25px;
