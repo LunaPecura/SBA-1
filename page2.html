@@ -8,8 +8,10 @@
 
     <!-- INTERNAL STYLING -->
     <style>
-        td {
+        td, th {
             border: 1px dashed darkcyan;
+            text-align: center;
+            padding: 5px;
         }
     </style>
 </head>
@@ -30,7 +32,9 @@
             <h1>Page 2</h1>
             
             <!-- INLINE STYLING -->
-            <table style="border: 2px solid black;">
+            <table style="border: 2px solid black; padding: 5px;">
+                <caption>A table</caption>
+                <thead><tr><th>Col 1</th><th>Col 2</th><th>Col 3</th></tr></thead>
                 <tr><td>A</td><td>B</td><td>C</td></tr>
                 <tr><td>D</td><td>E</td><td>F</td></tr>
                 <tr><td>G</td><td>H</td><td>I</td></tr>
